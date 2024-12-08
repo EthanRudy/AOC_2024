@@ -1,0 +1,30 @@
+#ifndef DAY_XX_HPP
+#define DAY_XX_HPP
+
+#include "../include/calendar.hpp"
+
+void Calendar::DayXX_Part1() {
+	// Input
+
+	timer.start();
+
+	// Solve
+
+	timer.end();
+	auto dura = timer.duration();
+	std::cout << "Day XX P1: " << "ANS" << " found in " << dura.first << " " << dura.second << "(s)\n";
+}
+
+void Calendar::DayXX_Part2() {
+	// Input
+
+	timer.start();
+
+	// Solve
+
+	timer.end();
+	auto dura = timer.duration();
+	std::cout << "Day XX P2: " << "ANS" << " found in " << dura.first << " " << dura.second << "(s)\n";
+}
+
+#endif // !DAY_01_HPP
