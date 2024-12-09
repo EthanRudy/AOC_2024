@@ -2,9 +2,10 @@
 #include "../calendar/day_02.h"
 #include "../calendar/day_03.h"
 #include "../calendar/day_04.h"
+#include "../calendar/day_05.h"
 
 
-static const unsigned int DAY = 4;
+static const unsigned int DAY = 5;
 
 int main() {
 
@@ -33,6 +34,9 @@ int main() {
 		calendar.Day04_Part2();
 		break;
 	case 5:
+		calendar.Day05_Part1();
+		calendar.reset();
+		calendar.Day05_Part2();
 		break;
 	case 6:
 		break;

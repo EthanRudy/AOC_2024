@@ -41,6 +41,9 @@ public:
 	void Day04_Part1();
 	void Day04_Part2();
 
+	void Day05_Part1();
+	void Day05_Part2();
+
 protected:
 private:
 
