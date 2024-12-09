@@ -1,6 +1,7 @@
 #ifndef UTILS_H
 #define UTILS_H
 
+#include <bitset>
 #include <fstream>
 #include <iostream>
 #include <map>
@@ -43,6 +44,12 @@ public:
 
 	void Day05_Part1();
 	void Day05_Part2();
+
+	void Day06_Part1();
+	void Day06_Part2();
+
+	void Day07_Part1();
+	void Day07_Part2();
 
 protected:
 private:

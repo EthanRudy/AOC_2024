@@ -3,9 +3,11 @@
 #include "../calendar/day_03.h"
 #include "../calendar/day_04.h"
 #include "../calendar/day_05.h"
+#include "../calendar/day_06.h"
+#include "../calendar/day_07.h"
 
 
-static const unsigned int DAY = 5;
+static const unsigned int DAY = 7;
 
 int main() {
 
@@ -39,8 +41,14 @@ int main() {
 		calendar.Day05_Part2();
 		break;
 	case 6:
+		calendar.Day06_Part1();
+		calendar.reset();
+		calendar.Day06_Part2();
 		break;
 	case 7:
+		calendar.Day07_Part1();
+		calendar.reset();
+		calendar.Day07_Part2();
 		break;
 	case 8:
 		break;
