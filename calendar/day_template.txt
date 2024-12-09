@@ -3,7 +3,7 @@
 
 #include "../include/calendar.hpp"
 
-void Calendar::DayXX_Part1() {
+inline void Calendar::DayXX_Part1() {
 	// Input
 
 	timer.start();
@@ -15,7 +15,7 @@ void Calendar::DayXX_Part1() {
 	std::cout << "Day XX P1: " << "ANS" << " found in " << dura.first << " " << dura.second << "(s)\n";
 }
 
-void Calendar::DayXX_Part2() {
+inline void Calendar::DayXX_Part2() {
 	// Input
 
 	timer.start();

@@ -1,6 +1,8 @@
 #include "../calendar/day_01.hpp"
+#include "../calendar/day_02.hpp"
 
-static const unsigned int DAY = 2;
+
+static const unsigned int DAY = 3;
 
 int main() {
 

@@ -3,7 +3,7 @@
 
 #include "../include/calendar.hpp"
 
-void Calendar::Day01_Part1() {
+inline void Calendar::Day01_Part1() {
 	// Auto sorted insertion
 	std::multiset<int> left, right;
 
@@ -31,7 +31,7 @@ void Calendar::Day01_Part1() {
 	std::cout << "Day 01 P1: " << dist << " found in " << dura.first << " " <<  dura.second << "(s)\n";
 }
 
-void Calendar::Day01_Part2() {
+inline void Calendar::Day01_Part2() {
 	std::vector<int> left;
 	std::map<int, int> right;
 

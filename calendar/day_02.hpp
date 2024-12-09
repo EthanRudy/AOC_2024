@@ -26,7 +26,7 @@ inline static bool safe_report(const std::vector<int>& report) {
 	return true;
 }
 
-void Calendar::Day02_Part1() {
+inline void Calendar::Day02_Part1() {
 	std::vector<std::vector<int>> reports;
 	while (std::getline(input, line)) {
 		std::stringstream ss(line);
@@ -50,7 +50,7 @@ void Calendar::Day02_Part1() {
 	std::cout << "Day 02 P1: " << num_safe << " found in " << dura.first << " " << dura.second << "(s)\n";
 }
 
-void Calendar::Day02_Part2() {
+inline void Calendar::Day02_Part2() {
 	std::vector<std::vector<int>> reports;
 	while (std::getline(input, line)) {
 		std::stringstream ss(line);
