@@ -1,6 +1,6 @@
 #include "../calendar/day_01.hpp"
 
-static const unsigned int DAY = 1;
+static const unsigned int DAY = 2;
 
 int main() {
 
@@ -14,6 +14,9 @@ int main() {
 		calendar.Day01_Part2();
 		break;
 	case 2:
+		calendar.Day02_Part1();
+		calendar.reset();
+		calendar.Day02_Part2();
 		break;
 	case 3:
 		break;

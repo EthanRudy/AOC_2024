@@ -32,7 +32,8 @@ public:
 	void Day01_Part1();
 	void Day01_Part2();
 
-
+	void Day02_Part1();
+	void Day02_Part2();
 
 protected:
 private:
