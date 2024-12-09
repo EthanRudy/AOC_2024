@@ -1,7 +1,7 @@
 #ifndef DAY_02_HPP
 #define DAY_02_HPP
 
-#include "../include/calendar.hpp"
+#include "../include/calendar.h"
 
 inline static bool safe_report(const std::vector<int>& report) {
 	bool safe = true, increasing;

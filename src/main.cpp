@@ -1,5 +1,6 @@
-#include "../calendar/day_01.hpp"
-#include "../calendar/day_02.hpp"
+#include "../calendar/day_01.h"
+#include "../calendar/day_02.h"
+#include "../calendar/day_03.h"
 
 
 static const unsigned int DAY = 3;
@@ -21,6 +22,9 @@ int main() {
 		calendar.Day02_Part2();
 		break;
 	case 3:
+		calendar.Day03_Part1();
+		calendar.reset();
+		calendar.Day03_Part2();
 		break;
 	case 4:
 		break;

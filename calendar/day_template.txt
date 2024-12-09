@@ -1,7 +1,7 @@
 #ifndef DAY_XX_HPP
 #define DAY_XX_HPP
 
-#include "../include/calendar.hpp"
+#include "../include/calendar.h"
 
 inline void Calendar::DayXX_Part1() {
 	// Input

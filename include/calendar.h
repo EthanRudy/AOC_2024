@@ -9,7 +9,7 @@
 #include <string>
 #include <vector>
 
-#include "timer.hpp"
+#include "timer.h"
 
 class Calendar {
 public:
@@ -34,6 +34,9 @@ public:
 
 	void Day02_Part1();
 	void Day02_Part2();
+
+	void Day03_Part1();
+	void Day03_Part2();
 
 protected:
 private:

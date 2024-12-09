@@ -1,7 +1,7 @@
 #ifndef DAY_01_HPP
 #define DAY_01_HPP
 
-#include "../include/calendar.hpp"
+#include "../include/calendar.h"
 
 inline void Calendar::Day01_Part1() {
 	// Auto sorted insertion
